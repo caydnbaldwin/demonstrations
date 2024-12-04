@@ -5,6 +5,6 @@ I fell in love with computers during my IS 201 class. I became a TA for the clas
 This website was a great way for me to practice everything that I have learned as a result of the love for information systems that IS 201 instilled within me. The website was built using `HTML`, `CSS`, `JavaScript`, `PHP`, and `SQL`. The malicious scripts were written using `VBA` and `JavaScript`. The malicious server and recovery scripts were written using `Python`. Implemented topics include `full-stack website development`, `front-end development`, `back-end development`, `UX/UI design`, `embedded scripts`, `password hygiene`, `MySQL database`, `database administration`, `website server communication`, `authentication`, `SQL injection`, `cross-site scripting`, `malicious script crafting`, `keylogging`, `data processing`.
 
 ## Instructions
-Explicit instructions in how to approach, understand, begin, and run the website and its related scripts can be found in the [INSTRUCTIONS.MD](/assets/INSTRUCTIONS.MD). Please begin there. After completing `INSTRUCTIONS.MD`, you are done and may return here or close everything.
+Explicit instructions in how to approach, understand, begin, and run the website and its related scripts can be found in the [INSTRUCTIONS.md](/assets/INSTRUCTIONS.md). Please begin there. After completing `INSTRUCTIONS.md`, you are done and may return here or close everything.
 
-[&uarr; Back to top &uarr;](README.MD#demonstrations)
+[&uarr; Back to top &uarr;](README.md#demonstrations)

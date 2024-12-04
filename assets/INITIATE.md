@@ -9,7 +9,7 @@ This file contains step-by-step instructions to host this website locally from s
 
 &rarr; [Setup `xss-redirect.xlsm` and `xss-keylogger.xlsm` malicious scripts](#setup-xss-redirectxlsm-and-xss-keyloggerxlsm-malicious-scripts)
 
-Once completed, the entire website should be fully functional. Then proceed to the [next step](INSTRUCTIONS.MD#demonstrationsmd).
+Once completed, the entire website should be fully functional. Then proceed to the [next step](INSTRUCTIONS.md#demonstration.md).
 
 ## Setup `XAMPP`, `Apache`, `MySQL`, and `PHP`
 1. Download [XAMPP](https://www.apachefriends.org/).
@@ -63,4 +63,4 @@ Once completed, the entire website should be fully functional. Then proceed to t
 
 6. Repeat for `xss-keylogger.xlsm`.
 
-[&uarr; Back to top &uarr;](INITIATE.MD#initiate)
+[&uarr; Back to top &uarr;](INITIATE.md#initiate)

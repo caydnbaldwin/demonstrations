@@ -1,5 +1,5 @@
 # Filesystem
-This file contains the structure of the filesystem that is used for this project. While no action is directly associated with this step, it is important to be familiar with this file and understand how the filesystem works for future purposes of potential debugging or editing. Within the root directory, there are nine subdirectories. Each subdirectory listed here is hyperlinked to the subdirectory heading in this file so that you can learn more about its contents. Each individual file within the subdirectories is hyperlinked to the actual file and will thus redirect the webpage if clicked. After reviewing the filesystem structure, proceed to the [next step](INSTRUCTIONS.MD#initiatemd).
+This file contains the structure of the filesystem that is used for this project. While no action is directly associated with this step, it is important to be familiar with this file and understand how the filesystem works for future purposes of potential debugging or editing. Within the root directory, there are nine subdirectories. Each subdirectory listed here is hyperlinked to the subdirectory heading in this file so that you can learn more about its contents. Each individual file within the subdirectories is hyperlinked to the actual file and will thus redirect the webpage if clicked. After reviewing the filesystem structure, proceed to the [next step](INSTRUCTIONS.md#initiat.md).
 
 - [`assets`](#assets)
 - [`css`](#css)
@@ -9,18 +9,18 @@ This file contains the structure of the filesystem that is used for this project
 - [`python`](#python)
 - [`vba`](#vba)
 - [`index.html`](index.html)
-- [`README.MD`](README.MD)
+- [`README.md`](README.md)
 
 ## `/assets`
 - [`backup-stock.jpg`](backup-stock.jpg)
 - [`concepts-background-image.jpg`](concepts-background-image.jpg)
 - [`database-sign-in-background-image.jpg`](database-sign-in-background-image.jpg)
-- [`DEMONSTRATIONS.MD`](DEMONSTRATIONS.MD)
+- [`DEMONSTRATIONS.md`](DEMONSTRATIONS.md)
 - [`development-background-image.jpg`](development-background-image.jpg)
-- [`FILESYSTEM.MD`](FILESYSTEM.MD)
+- [`FILESYSTEM.md`](FILESYSTEM.md)
 - [`index-background-image.jpg`](index-background-image.jpg)
-- [`INITIATE.MD`](INITIATE.MD)
-- [`INSTRUCTIONS.MD`](INSTRUCTIONS.MD)
+- [`INITIATE.md`](INITIATE.md)
+- [`INSTRUCTIONS.md`](INSTRUCTIONS.md)
 - [`setup-databases.sql`](setup-databases.sql)
 - [`word-list.txt`](word-list.txt)
 
@@ -64,4 +64,4 @@ This file contains the structure of the filesystem that is used for this project
 - [`xss-redirect-send-malicious-request.vba`](xss-redirect-send-malicious-request.vba)
 - [`xss-redirect.xlsm`](vba/xss-redirect.xlsm)
 
-[&uarr; Back to top &uarr;](FILESYSTEM.MD#filesystem)
+[&uarr; Back to top &uarr;](FILESYSTEM.md#filesystem)

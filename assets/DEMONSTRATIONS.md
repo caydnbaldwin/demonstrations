@@ -7,7 +7,7 @@ This file contains step-by-step instructions to run the demonstrations with the 
 
 &rarr; [Development](#development)
 
-You are done after learning and running through each demonstration. Return to [INSTRUCTIONS.MD](INSTRUCTIONS.MD) or [README.MD](../README.MD).
+You are done after learning and running through each demonstration. Return to [INSTRUCTIONS.md](INSTRUCTIONS.md) or [README.md](../README.md).
 
 ## Concepts
 `Concepts` is a simple demonstration. Security begins on an individual level. The [NIST Cybersecurity Framework (NIST CSF) Special Publication 800-63B](https://pages.nist.gov/800-63-3/sp800-63-3.html) teaches the importance of converting individual authentication credentials from passwords to passphrases. And defines a passphrase as "a memorized secret consisting of a sequence of words or other text that a claimant uses to authenticate their identity. A passphrase is similar to a password in usage, but is generally longer for added security." To demonstrate the importance and simplicity of good personal security and encourage compliance, students are encouraged to create a more secure authorization credential utilizing the [passphrase generator](../html/concepts.html).
@@ -116,4 +116,4 @@ Development consists of two parts. The [first part](#redirect) is a more playful
 
 &rarr; Additional Note: Open `XAMPP Control Panel` as administrator. Click `Shell`. Run the following command `mysql -u root < .\htdocs\root\assets\show-malicious-scripts.sql`. You can see the keylogger script in the database.
 
-[&uarr; Back to top &uarr;](DEMONSTRATIONS.MD#demonstrations)
+[&uarr; Back to top &uarr;](DEMONSTRATIONS.md#demonstrations)
