@@ -58,7 +58,10 @@ This file contains the structure of the filesystem that is used for this project
 - [`keystroke-server.py`](python/keystroke-server.py)
 
 ## `/vba`
+- [`xss-keylogger-send-malicious-request.vba`](xss-keylogger-send-malicious-request.vba)
+- [`xss-keylogger-start-live-keylogger.vba`](xss-keylogger-start-live-keylogger.vba)
 - [`xss-keylogger.xlsm`](vba/xss-keylogger.xlsm)
+- [`xss-redirect-send-malicious-request.vba`](xss-redirect-send-malicious-request.vba)
 - [`xss-redirect.xlsm`](vba/xss-redirect.xlsm)
 
 [&uarr; Back to top &uarr;](FILESYSTEM.MD#filesystem)
