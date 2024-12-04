@@ -1,0 +1,15 @@
+/* update background image */
+body::before {
+    background-image: url(../assets/database-sign-in-background-image.jpg)
+}
+
+/* Message Section */
+#message { /* this is the entire window beneath the header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* leave room for footer */
+    margin: 0;
+}

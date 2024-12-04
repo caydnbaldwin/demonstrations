@@ -1,0 +1,17 @@
+/* home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* full viewport height for the home section */
+    margin: 0;
+    padding-top: 60px; /* avoid overlapping with the fixed header */
+    padding-bottom: 50px; /* avoid overlapping with the fixed footer */
+}
+
+#home-block {
+    width: 50vw;
+    font-family: sans-serif;
+}

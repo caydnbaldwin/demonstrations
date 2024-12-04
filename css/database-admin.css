@@ -1,0 +1,53 @@
+/* update background image */
+body::before {
+    background-image: url(../assets/database-sign-in-background-image.jpg)
+}
+
+/* Message Section */
+#message { /* this is the entire window beneath the header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* leave room for footer */
+    margin: 0;
+}
+
+.erd-unit {
+    text-align: left;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are collapsed together */
+}
+
+th, td {
+    border: 1px solid white; /* White borders for both rows and columns */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Header row with bolder borders */
+th {
+    font-weight: bold; /* Makes header text bold */
+    border-width: 2px; /* Makes the header row borders bolder */
+    background-color: rgb(0, 0, 0, 1); /* Optional: Add background color for header row */
+}
+
+/* Alternate row color (optional for better readability) */
+tr:nth-child(even) {
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.line {
+    position: absolute;
+    border-top: 2px solid white;
+    z-index: 1;
+}

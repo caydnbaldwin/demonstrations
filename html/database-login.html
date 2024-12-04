@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css stylesheets -->
+    <link rel="stylesheet" href="../css/header-footer-button.css">
+    <link rel="stylesheet" href="../css/database-login.css">
+    <!-- window title -->
+    <title>Demonstrations | Database | Login</title>
+
+</head>
+
+<body>
+
+    <!-- header  -->
+    <header id="menu">
+
+        <!-- left side -->
+        <div id="menu-item-1">
+            <!-- `Demonstrations` links to `index.html` -->
+            <a href="../index.html"><h3>Demonstrations</h3></a>
+        </div>
+
+        <!-- right side -->
+        <div id="menu-item-2">
+            <nav id="menu-item-2-nav">
+                <!-- `Concepts` links to `concepts.html` in `html` subdirectory -->
+                <a href="concepts.html"><h3>Concepts</h3></a>
+                <h3>|</h3>
+                <!-- `Database` links to `database-login.html` in `html` subdirectory -->
+                <a href="database-login.html"><h3>Database</h3></a>
+                <h3>|</h3>
+                <!-- `Development` links to `development.php` in `php` subdirectory -->
+                <a href="../php/development.php"><h3>Development</h3></a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- login -->
+    <section id="login">
+
+        <div id="login-block" class="login-container">
+            <h1>Login</h1>
+
+            <!-- form inputs to submit with `database-login.php` to communicate with MySQL database -->
+            <form action="../php/database-login.php" method="POST">
+
+                <!-- username -->
+                <div class="form-item">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <!-- password -->
+                <div class="form-item">
+                    <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                </div>
+
+                <!-- login button -->
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    
+    </section>
+
+    <!-- footer  -->
+    <footer>
+        <p>Made from scratch by Caydn Baldwin utilizing HTML, CSS, JavaScript, PHP, SQL, Python, and VBA in Visual Studio Code</p>
+    </footer>
+    
+</body>
+</html>

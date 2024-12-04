@@ -1,0 +1,121 @@
+/* Update background image */
+body::before {
+    background-image: url(../assets/development-background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Main content section (two columns) */
+#main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Left section (Chat/Comments) */
+.left-section {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.25);
+    height: 80%; /* Adjust for header and footer */
+    overflow-y: hidden;
+}
+
+#chat-box {
+    height: 80%;
+    overflow-y: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.chat-message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.timestamp {
+    color: rgba(255, 255, 255, 0.25);
+    text-align: right;
+    display: block;
+}
+
+/* Right section (Login) */
+.right-section {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80%; /* Adjust for header and footer */
+}
+
+/* Login form styling */
+.form-item {
+    text-align: left;
+}
+
+label {
+    font-size: large;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+
+
+
+.notification {
+    visibility: hidden;
+    max-width: 300px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.notification.show {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 2.5s 3s;
+}
+
+@keyframes fadeIn {
+    from { bottom: 0; opacity: 0; }
+    to { bottom: 30px; opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
