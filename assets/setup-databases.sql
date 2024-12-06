@@ -47,10 +47,7 @@ CREATE TABLE IF NOT EXISTS chats (
 
 -- Verify data was inserted correctly
 USE authentication;
-SELECT 'Users Table:' as '';
 SELECT * FROM users;
-SELECT 'User SPII Table:' as '';
 SELECT * FROM user_spii;
 USE chats;
-SELECT 'Messages Table:' as '';
 SELECT * FROM messages;

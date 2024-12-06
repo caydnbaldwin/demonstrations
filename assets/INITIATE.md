@@ -59,7 +59,7 @@ Once completed, the entire website should be fully functional. Then proceed to t
 
 4. Click `Properties`.
 
-5. Click `Enable Macros`.
+5. Click `Unblock`.
 
 6. Repeat for `xss-keylogger.xlsm`.
 

@@ -22,6 +22,7 @@ This file contains the structure of the filesystem that is used for this project
 - [`INITIATE.md`](INITIATE.md)
 - [`INSTRUCTIONS.md`](INSTRUCTIONS.md)
 - [`setup-databases.sql`](setup-databases.sql)
+- [`show-malicious-scripts.sql`](show-malicious-scripts.sql)
 - [`word-list.txt`](word-list.txt)
 
 ## `/css`

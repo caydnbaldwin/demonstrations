@@ -69,7 +69,7 @@ Development consists of two parts. The [first part](#redirect) is a more playful
 
 3. Open [`xss-redirect.xlsm`](../vba/xss-redirect.xlsm).
 
-4. There should be a yellow tab directly above the top row of cells with an `Enable Content` button. Click it.
+4. There should be a yellow security warning that says `Macros have been disabled` directly above the top row of cells with an `Enable Content` button. Click `Enable Content`.
 
 5. Click `Send Malicious Request`.
 
@@ -77,9 +77,13 @@ Development consists of two parts. The [first part](#redirect) is a more playful
 
 7. Explain how the `Send Malicious Request` entered a malicious script into the chat that broke the page and made it automatically redirect to the rickroll endlessly. Feel free to click on other tabs within the website and then try to revisit the `Development` tab to show that it is permanently destroyed. Feel free to open a new website in the current tab and then travel back. The website will still be broken.
 
-8. Run [`development-recovery.py`] to fix the broken website.
+8. Open `XAMPP Control Panel` as administrator. Click `Shell`. Run the following command `mysql -u root < .\htdocs\root\assets\show-malicious-scripts.sql`. Show that you can see the redirect script in the database.
 
-&rarr; Additional Note: Open `XAMPP Control Panel` as administrator. Click `Shell`. Run the following command `mysql -u root < .\htdocs\root\assets\show-malicious-scripts.sql`. You can see the redirect script in the database.
+9. Open `.\root\python` subdirectory in the terminal.
+
+10. Type `.\.venv\Scripts\activate` to start the virtual environment.
+
+11. Run [`development-recovery.py`](../python/development-recovery.py) to fix the broken website.
 
 ### Keylogger
 1. Navigate to [`development.php`](../php/development.php).
@@ -88,32 +92,32 @@ Development consists of two parts. The [first part](#redirect) is a more playful
 
 3. Open [`xss-keylogger.xlsm`](../vba/xss-keylogger.xlsm).
 
-4. There should be a yellow tab directly above the top row of cells with an `Enable Content` button. Click it.
+4. There should be a yellow security warning that says `Macros have been disabled` directly above the top row of cells with an `Enable Content` button. Click `Enable Content`.
 
 5. Click `Send Malicious Request`.
 
 6. Refresh the `development.php` page.
 
-7. Run [`keylogger-server.py`](../python/keylogger-server.py) to initiate the keylogger listening server.
+7. Open `XAMPP Control Panel` as administrator. Click `Shell`. Run the following command `mysql -u root < .\htdocs\root\assets\show-malicious-scripts.sql`. You can see the keylogger script in the database.
+
+8. Run [`keylogger-server.py`](../python/keylogger-server.py) to initiate the keylogger listening server.
 
     &rarr; If it doesn't work, change the port on line 29 to a port that is not in use.
 
-8. Split your screen with the `xss-keylogger.xlsm` on the left and the `developent.php` on the right.
+9. Split your screen with the `xss-keylogger.xlsm` on the left and the `developent.php` on the right.
 
-9. Click the `Start Live Keylogger` button in the `xss-keylogger.xlsm` file.
+10. Click the `Start Live Keylogger` button in the `xss-keylogger.xlsm` file.
 
-9. Type `username` into the `Username` input box on the `developent.php` page.
+11. Type `username` into the `Username` input box on the `developent.php` page.
 
-10. Type `password` into the `Password` input box on the `development.php` page.
+12. Type `password` into the `Password` input box on the `development.php` page.
 
-11. Wait three to four seconds and you will see that whatever you type will appear in column `B` of the excel spreadsheet. Feel free to type anything you want now and wait a few seconds.
+13. Wait three to four seconds and you will see that whatever you type will appear in column `B` of the excel spreadsheet. Feel free to type anything you want now and wait a few seconds.
 
-12. Press `Ctrl + C` in the terminal that you ran `keylogger-server.py` or just close the temrinal to kill the server.
+14. Press `Ctrl + C` in the terminal that you ran `keylogger-server.py` or just close the temrinal to kill the server.
 
-13. Press `ESC` or close the excel file to kill the script. If the script persists and excel refuses to close, it will eventually time out after about a minute.
+15. Press `ESC` or close the excel file to kill the script. If the script persists and excel refuses to close, it will eventually time out after about a minute.
 
-14. Click the `Clear Chat` button on the `development.php` page to remove the malicious script.
-
-&rarr; Additional Note: Open `XAMPP Control Panel` as administrator. Click `Shell`. Run the following command `mysql -u root < .\htdocs\root\assets\show-malicious-scripts.sql`. You can see the keylogger script in the database.
+16. Click the `Clear Chat` button on the `development.php` page to remove the malicious script.
 
 [&uarr; Back to top &uarr;](DEMONSTRATIONS.md#demonstrations)
