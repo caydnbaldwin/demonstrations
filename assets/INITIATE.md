@@ -31,6 +31,8 @@ Once completed, the entire website should be fully functional. Then proceed to t
 ## Setup `Demonstrations`
 1. Download [Demonstrations](https://insert_link_here.org).
 
+2. Before extracting content, rename the zip file as `root`.
+
 2. Place the `root` directory in `/xampp/htdocs` directory.
 
 3. Open a browser and go to `http://localhost/root/index.html`.
