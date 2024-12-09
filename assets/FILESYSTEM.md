@@ -23,6 +23,7 @@ This file contains the structure of the filesystem that is used for this project
 - [`INSTRUCTIONS.md`](INSTRUCTIONS.md)
 - [`setup-databases.sql`](setup-databases.sql)
 - [`show-malicious-scripts.sql`](show-malicious-scripts.sql)
+- [`WAIVER.md`](WAIVER.md)
 - [`word-list.txt`](word-list.txt)
 
 ## `/css`
